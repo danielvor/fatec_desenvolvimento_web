@@ -1,13 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: medium;
+}
+
 #master {
   width: 800px;
-  height: 600px;
-  border: 1px solid blueviolet;
+  height: 900px;
+  border: 3px solid blueviolet;
+  margin: 10px;
+  padding: 10px;
 }
 
 #master #topo {
   width: 780px;
   height: 25px;
-  border: 1px solid red;
+  border: 3px solid red;
   margin: 5px 7px 5px 7px;
 }
 
@@ -25,7 +33,6 @@
 #master #topo ul li {
   float: left;
   width: 240px;
-  border: 0px solid black;
   margin: 0px;
   text-align: center;
 }
@@ -35,19 +42,24 @@
 }
 
 #master #menu {
-  width: 80px;
-  height: 540px;
-  border: 1px solid yellow;
+  width: 200px;
+  height: 822px;
+  border: 3px solid yellow;
   margin: 5px 0px 0px 7px;
   float: left;
+  margin: 10px;
+  padding: 10px;
 }
 
 #master #conteudo{
-  width: 687px;
-  height: 540px;
-  border: 1px solid green;
+  width: 621px;
+  height: 800px;
+  border: 3px solid green;
   margin: 5px 0px 0px 7px;
   float: left;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
 }
 
 #master #menu ul {
@@ -61,3 +73,17 @@
   text-align: center;
 }
 
+#master #content {
+  width: 500px;
+  height: 822px;
+  float: right;
+  margin: 10px;
+  padding: 10px;
+  border: 3px solid red;
+}
+
+
+
+h5, h6 {
+  margin: 5px 5px 10px 5px;
+}
