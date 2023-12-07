@@ -16,6 +16,21 @@ nav {
     height: 100%;
 }
 
+#menu {
+    position: fixed;
+    top: 10px;
+    left: 60px;
+    text-decoration: none;
+}
+
+.ri-menu-line {
+    font-size: 36px;
+    color: #000;
+    text-decoration: none;
+}
+  
+  
+
 nav ul {
     list-style: none;
     display: flex;
